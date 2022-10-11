@@ -1,0 +1,93 @@
+@import '../../../scss/colors.scss';
+@import '../../../scss/fonts.scss';
+@import '../../../scss/mixins.scss';
+
+.text {
+  font-family: $font-family;
+}
+
+.clickable {
+  @include clickable;
+}
+
+.size {
+  &-small {
+    font-size: $font-small;
+  }
+
+  &-regular {
+    font-size: $font-regular;
+  }
+
+  &-large {
+    font-size: $font-large;
+  }
+
+  &-larger {
+    font-size: $font-larger;
+  }
+}
+
+.weight {
+  &-bold {
+    font-weight: bold;
+  }
+
+  &-normal {
+    font-weight: 100;
+  }
+
+  &-semi-bold {
+    font-weight: 500;
+  }
+}
+
+.layout {
+  &-block {
+    display: block;
+  }
+
+  &-inline {
+    display: inline-block;
+  }
+
+  &-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.color {
+  &-alabaster {
+    color: $alabaster;
+  }
+
+  &-zircon {
+    color: $zircon;
+  }
+
+  &-silver {
+    color: $silver;
+  }
+
+  &-tundora {
+    color: $tundora;
+  }
+
+  &-denim {
+    color: $denim;
+  }
+
+  &-apple {
+    color: $apple;
+  }
+
+  &-panache {
+    color: $panache;
+  }
+
+  &-red {
+    color: $red;
+  }
+}

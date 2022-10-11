@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'icons';
+  src: url(\./assets/icons.woff?31x4pm) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: 'icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.clickable {
+    cursor: pointer;
+    &:hover {
+      filter: brightness(120%);
+    }
+  }
+}
+
+.display {
+  &-block {
+    display: block;
+  }
+
+  &-inline {
+    display: inline;
+  }
+}
+
+.size {
+  &-x-small {
+    font-size: 10px;
+  }
+
+  &-small {
+    font-size: 16px;
+  }
+
+  &-medium {
+    font-size: 24px;
+  }
+
+  &-large {
+    font-size: 32px;
+    padding: 10px;
+  }
+
+  &-x-large {
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  &-xx-large {
+    font-size: 48px;
+    padding: 10px;
+  }
+
+  &-xxx-large {
+    font-size: 60px;
+    padding: 10px;
+  }
+}
+
+.home {
+  &:before {
+    content: '\e900';
+  }
+}
+
+.pencil {
+  &:before {
+    content: '\e905';
+  }
+}
+
+.droplet {
+  &:before {
+    content: '\e90b';
+  }
+}
+
+.image {
+  &:before {
+    content: '\e90d';
+  }
+}
+
+.bell {
+  &:before {
+    content: '\e951';
+  }
+}
+
+.bubble2 {
+  &:before {
+    content: '\e96e';
+  }
+}
+
+.user {
+  &:before {
+    content: '\e971';
+  }
+}
+
+.users {
+  &:before {
+    content: '\e972';
+  }
+}
+
+.user-plus {
+  &:before {
+    content: '\e973';
+  }
+}
+
+.user-minus {
+  &:before {
+    content: '\e974';
+  }
+}
+
+.user-check {
+  &:before {
+    content: '\e975';
+  }
+}
+
+.user-tie {
+  &:before {
+    content: '\e976';
+  }
+}
+
+.spinner4 {
+  &:before {
+    content: '\e97d';
+  }
+}
+
+.spinner5 {
+  &:before {
+    content: '\e97e';
+  }
+}
+
+.search {
+  &:before {
+    content: '\e986';
+  }
+}
+
+.bookmark {
+  &:before {
+    content: '\e9d2';
+  }
+}
+
+.plus {
+  &:before {
+    content: '\ea0a';
+  }
+}
+
+.minus {
+  &:before {
+    content: '\ea0b';
+  }
+}
+
+.cross {
+  &:before {
+    content: '\ea0f';
+  }
+}
+
+.checkmark {
+  &:before {
+    content: '\ea10';
+  }
+}
+
+.play3 {
+  &:before {
+    content: '\ea1c';
+  }
+}
+
+.eject {
+  &:before {
+    content: '\ea25';
+  }
+}
+
+.arrow-right {
+  &:before {
+    content: '\ea34';
+  }
+}
+
+.circle-up {
+  &:before {
+    content: '\ea41';
+  }
+}
+
+.make-group {
+  &:before {
+    content: '\ea58';
+  }
+}
+
+.mail4 {
+  &:before {
+    content: '\ea86';
+  }
+}

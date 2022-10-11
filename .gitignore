@@ -1,0 +1,9 @@
+# Libs
+/node_modules
+
+# Genereted Files
+/build
+/dist
+
+# Logs
+npm
