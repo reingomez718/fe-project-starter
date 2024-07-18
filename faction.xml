@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+  <table name="faction" version="1">
+    <header>
+      <column name="description" type="character varying" />
+      <column name="faction_id" type="integer" />
+      <column name="faction_name" type="character varying" />
+      <column name="location_id" type="uuid" />
+      <column name="player_reputation" type="real" />
+      <column name="superfaction_id" type="integer" />
+      <column name="visible" type="boolean" />
+    </header>
+    <rows>
+      <row description="" faction_id="1" faction_name="ui_fac_samopesh_villagers" location_id="3622822e-f0ad-44a5-b20f-995f5f4e934a" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="2" faction_name="ui_fac_samopesh_bandits" location_id="3622822e-f0ad-44a5-b20f-995f5f4e934a" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="3" faction_name="ui_fac_ratays_traders" location_id="0874c462-fa23-40e3-a437-c6fea290af48" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="4" faction_name="ui_fac_merhojed_villagers" location_id="0b82bf92-69b2-4d0c-8313-20f63197cf7a" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="11" faction_name="ui_fac_player" location_id="" player_reputation="1" superfaction_id="5" visible="False" />
+      <row description="" faction_id="12" faction_name="ui_fac_cumans" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="1" visible="False" />
+      <row description="" faction_id="13" faction_name="ui_fac_merhojed_soldiers" location_id="0b82bf92-69b2-4d0c-8313-20f63197cf7a" player_reputation="0.5" superfaction_id="6" visible="True" />
+      <row description="" faction_id="16" faction_name="ui_fac_players_duelists" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-0.5" superfaction_id="7" visible="False" />
+      <row description="" faction_id="17" faction_name="ui_fac_talmberk_villagers" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="18" faction_name="ui_fac_talmberk_soldiers" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" player_reputation="0.5" superfaction_id="6" visible="True" />
+      <row description="" faction_id="19" faction_name="ui_fac_pribyslavice_bandits" location_id="85fb8451-d296-4858-afcf-9423e76104aa" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="20" faction_name="ui_fac_pribyslavice_cumans" location_id="85fb8451-d296-4858-afcf-9423e76104aa" player_reputation="-1" superfaction_id="1" visible="False" />
+      <row description="" faction_id="21" faction_name="ui_fac_machs_bandits" location_id="85fb8451-d296-4858-afcf-9423e76104aa" player_reputation="0.5" superfaction_id="36" visible="False" />
+      <row description="" faction_id="22" faction_name="ui_fac_ledecko_bandits" location_id="85fb8451-d296-4858-afcf-9423e76104aa" player_reputation="-1" superfaction_id="35" visible="False" />
+      <row description="" faction_id="23" faction_name="ui_fac_ledecko_villagers" location_id="0d7e5531-54ce-449f-8f4f-57f539b928b9" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="24" faction_name="ui_fac_neuhof_villagers" location_id="850e6645-f899-472d-aeac-1c0888e85bf9" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="25" faction_name="ui_fac_neuhof_bandits" location_id="850e6645-f899-472d-aeac-1c0888e85bf9" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="26" faction_name="ui_fac_talmberk_fugitive" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="27" faction_name="ui_fac_ratays_citizens" location_id="0874c462-fa23-40e3-a437-c6fea290af48" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="28" faction_name="ui_fac_placeholder_enemy" location_id="" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="29" faction_name="ui_fac_placeholder_friend" location_id="" player_reputation="1" superfaction_id="3" visible="False" />
+      <row description="" faction_id="31" faction_name="ui_fac_skalice_refugees_rattay" location_id="0874c462-fa23-40e3-a437-c6fea290af48" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="32" faction_name="ui_fac_executionerKutnaHora" location_id="0874c462-fa23-40e3-a437-c6fea290af48" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="33" faction_name="ui_fac_vranik_bandits" location_id="f1bedd2b-0848-41a3-99c9-61f4055cff23" player_reputation="0.5" superfaction_id="4" visible="False" />
+      <row description="" faction_id="37" faction_name="ui_fac_skalice_refugees_sazava" location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="38" faction_name="ui_fac_skalice_villagers" location_id="b4dac612-e764-4fc9-b899-94612d2882c6" player_reputation="1" superfaction_id="3" visible="True" />
+      <row description="" faction_id="39" faction_name="ui_fac_sazavaMonastery_monks" location_id="ed962377-93c5-444d-8d23-f8063f30668f" player_reputation="0.5" superfaction_id="15" visible="True" />
+      <row description="" faction_id="40" faction_name="ui_fac_sazava_villagers" location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="41" faction_name="ui_fac_krizovatka_villagers" location_id="44f57021-f7e7-45ea-9081-b49239499e22" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="42" faction_name="ui_fac_rataje_out_villagers" location_id="0874c462-fa23-40e3-a437-c6fea290af48" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="43" faction_name="ui_fac_vrsiny_villagers" location_id="b71cf862-c64b-4716-b86a-ef7569cadff5" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="44" faction_name="ui_fac_wolflin_soldiers" location_id="850e6645-f899-472d-aeac-1c0888e85bf9" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="45" faction_name="ui_fac_bernard_soldiers" location_id="0874c462-fa23-40e3-a437-c6fea290af48" player_reputation="0.5" superfaction_id="6" visible="False" />
+      <row description="" faction_id="46" faction_name="ui_fac_ratays_soldiers" location_id="0874c462-fa23-40e3-a437-c6fea290af48" player_reputation="0.5" superfaction_id="6" visible="True" />
+      <row description="" faction_id="47" faction_name="ui_fac_talmberk_masons" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="48" faction_name="ui_fac_auschitz_villagers" location_id="1eae7fc9-7292-4151-b706-1b0d99043004" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="49" faction_name="ui_fac_cumanCaptive" location_id="70b1cdf8-a2f2-4016-b9bc-d74f92b0cca9" player_reputation="0.5" superfaction_id="56" visible="False" />
+      <row description="" faction_id="50" faction_name="ui_fac_sazavaMonastery_public" location_id="ed962377-93c5-444d-8d23-f8063f30668f" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="51" faction_name="ui_fac_talmberkSiegeBandits" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" player_reputation="-1" superfaction_id="23" visible="False" />
+      <row description="" faction_id="52" faction_name="ui_fac_eventBandits" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="41" visible="False" />
+      <row description="" faction_id="53" faction_name="ui_fac_eventCumans" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="1" visible="False" />
+      <row description="" faction_id="54" faction_name="ui_fac_eventSoldiers" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="55" faction_name="ui_fac_eventCivilians" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="56" faction_name="ui_fac_counterfeiters" location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" player_reputation="0.5" superfaction_id="27" visible="False" />
+      <row description="" faction_id="57" faction_name="ui_fac_rovny_villagers" location_id="76e80b5c-06ba-4bce-aa89-899b50cee39d" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="58" faction_name="ui_fac_abductedWoman_bandits" location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" player_reputation="-1" superfaction_id="25" visible="False" />
+      <row description="" faction_id="59" faction_name="ui_fac_ulrich" location_id="" player_reputation="0.5" superfaction_id="26" visible="False" />
+      <row description="" faction_id="60" faction_name="ui_fac_gingerBandits" location_id="b71cf862-c64b-4716-b86a-ef7569cadff5" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="61" faction_name="ui_fac_talmberk_captives" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" player_reputation="0.5" superfaction_id="11" visible="False" />
+      <row description="" faction_id="62" faction_name="ui_fac_counterfeiters_workshop" location_id="a0373811-ce1f-48dd-8939-90cddcf31186" player_reputation="-0.5" superfaction_id="27" visible="False" />
+      <row description="" faction_id="63" faction_name="ui_fac_conquest_attackers" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="64" faction_name="ui_fac_conquest_defenders" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="65" faction_name="ui_fac_caste_unpopular" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0.3" superfaction_id="37" visible="False" />
+      <row description="" faction_id="66" faction_name="ui_fac_caste_dudeBestFriends" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="1" superfaction_id="38" visible="False" />
+      <row description="" faction_id="67" faction_name="ui_fac_wanderers" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="68" faction_name="ui_fac_sazava_bandits" location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="69" faction_name="ui_fac_caste_hated" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0.3" superfaction_id="42" visible="False" />
+      <row description="" faction_id="70" faction_name="ui_fac_banditCamp_rato" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="71" faction_name="ui_fac_banditCamp_vra" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="72" faction_name="ui_fac_banditCamp_neu" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="73" faction_name="ui_fac_banditCamp_led" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="74" faction_name="ui_fac_banditCamp_cros" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="1" visible="False" />
+      <row description="" faction_id="75" faction_name="ui_fac_banditCamp_aus" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="1" visible="False" />
+      <row description="" faction_id="76" faction_name="ui_fac_banditCamp_prib" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="1" visible="False" />
+      <row description="" faction_id="77" faction_name="ui_fac_banditCamp_aus2" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="1" visible="False" />
+      <row description="" faction_id="78" faction_name="ui_fac_banditCamp_vrs" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="1" visible="False" />
+      <row description="" faction_id="79" faction_name="ui_fac_banditCamp_ska" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="80" faction_name="ui_fac_banditCamp_ska2" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="81" faction_name="ui_fac_sazMon_spawnGuards" location_id="ed962377-93c5-444d-8d23-f8063f30668f" player_reputation="0.5" superfaction_id="6" visible="False" />
+      <row description="" faction_id="82" faction_name="ui_fac_banditCamp_sam" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="83" faction_name="ui_fac_skalitz_mines" location_id="a0373811-ce1f-48dd-8939-90cddcf31186" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="84" faction_name="ui_fac_stableHorses" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="1" superfaction_id="3" visible="False" />
+      <row description="" faction_id="85" faction_name="ui_fac_civiliansGeneral" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="86" faction_name="ui_fac_q_sheepInWolfs_poachers" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" player_reputation="0.5" superfaction_id="44" visible="False" />
+      <row description="" faction_id="87" faction_name="ui_fac_q_sheepInWolfs_rangers" location_id="83bb13a5-96b6-4909-9834-0228d8c6c124" player_reputation="0.5" superfaction_id="45" visible="False" />
+      <row description="" faction_id="88" faction_name="ui_fac_millers" location_id="61ebbfbf-c500-4df9-b1ad-38467a476a24" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="89" faction_name="ui_fac_kunes_rattay" location_id="0874c462-fa23-40e3-a437-c6fea290af48" player_reputation="0.16" superfaction_id="3" visible="False" />
+      <row description="" faction_id="90" faction_name="ui_fac_escapeToTalmberk_seekers" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0.5" superfaction_id="46" visible="False" />
+      <row description="" faction_id="91" faction_name="ui_fac_animals" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0" superfaction_id="52" visible="False" />
+      <row description="" faction_id="92" faction_name="ui_fac_q_awakening_dream" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="1" superfaction_id="51" visible="False" />
+      <row description="" faction_id="93" faction_name="ui_fac_q_devilplay_devils" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="94" faction_name="ui_fac_rovna_looters" location_id="76e80b5c-06ba-4bce-aa89-899b50cee39d" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="95" faction_name="ui_fac_counterfeiters_workers" location_id="a0373811-ce1f-48dd-8939-90cddcf31186" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="96" faction_name="ui_fac_prib_villagers" location_id="85fb8451-d296-4858-afcf-9423e76104aa" player_reputation="0.5" superfaction_id="3" visible="True" />
+      <row description="" faction_id="98" faction_name="ui_fac_erik" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0.25" superfaction_id="3" visible="False" />
+      <row description="" faction_id="100" faction_name="ui_fac_kunoband" location_id="53f0575f-c293-4dc8-b4d5-5d1d5fd854e3" player_reputation="1" superfaction_id="55" visible="True" />
+      <row description="" faction_id="101" faction_name="ui_fac_saso_camp" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="4" visible="False" />
+      <row description="" faction_id="102" faction_name="ui_fac_q_tournament_cernyPetr" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="57" visible="False" />
+      <row description="" faction_id="103" faction_name="ui_fac_hagenband" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0" superfaction_id="58" visible="False" />
+      <row description="" faction_id="104" faction_name="ui_fac_ledecko_vagabonds" location_id="0d7e5531-54ce-449f-8f4f-57f539b928b9" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="105" faction_name="ui_fac_q_revelation_haters" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="60" visible="False" />
+      <row description="" faction_id="106" faction_name="ui_fac_q_revelation_good" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0.5" superfaction_id="61" visible="False" />
+      <row description="" faction_id="107" faction_name="ui_fac_q_theresa_brother_flee" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="62" visible="False" />
+      <row description="" faction_id="108" faction_name="ui_fac_q_theresa_wolf" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="-1" superfaction_id="63" visible="False" />
+      <row description="" faction_id="109" faction_name="ui_fac_q_theresa_surv_bandit" location_id="9b6da2b2-7a5e-497f-87e6-4f2468b3f239" player_reputation="0" superfaction_id="64" visible="False" />
+      <row description="" faction_id="110" faction_name="ui_fac_sazava_pouchers" location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="111" faction_name="ui_fac_sazava_visiter" location_id="828eb313-f068-4dd1-ac65-a26ad7a91c69" player_reputation="0.5" superfaction_id="3" visible="False" />
+      <row description="" faction_id="112" faction_name="ui_fac_skalitz_mines_hostile" location_id="a0373811-ce1f-48dd-8939-90cddcf31186" player_reputation="0.5" superfaction_id="66" visible="False" />
+    </rows>
+  </table>
+</database>
